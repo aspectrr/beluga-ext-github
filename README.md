@@ -13,7 +13,7 @@ A Beluga extension that provides GitHub tools via a GitHub App installation.
 ## Install
 
 ```bash
-beluga extend install github.com/collinpfeifer/beluga-ext-github
+beluga extend install github.com/aspectrr/beluga-ext-github
 ```
 
 Or for local development:
@@ -51,7 +51,7 @@ extensions:
 This extension depends on Beluga's core packages via a `replace` directive:
 
 ```
-replace github.com/collinpfeifer/beluga => ../beluga
+replace github.com/aspectrr/beluga => ../beluga
 ```
 
 ```bash

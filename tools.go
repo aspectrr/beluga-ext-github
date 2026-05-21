@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/collinpfeifer/beluga/ext/tools"
+	"github.com/aspectrr/beluga/pkg/tools"
 )
 
 // GitHubToolConfig holds configuration for GitHub tool safety constraints.

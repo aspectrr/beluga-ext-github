@@ -8,8 +8,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/collinpfeifer/beluga/ext/extension"
-	"github.com/collinpfeifer/beluga/ext/tools"
+	"github.com/aspectrr/beluga/pkg/extension"
+	"github.com/aspectrr/beluga/pkg/tools"
 )
 
 // Extension implements the GitHub tools-only extension for Beluga.
