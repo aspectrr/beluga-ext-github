@@ -1,0 +1,18 @@
+{
+  "name": "@beluga/ext-github",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "index.ts",
+  "description": "GitHub App integration for Beluga. Push code, create/update/list PRs, comment on PRs.",
+  "dependencies": {
+    "@beluga/sdk": "file:../beluga/packages/sdk"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.15",
+    "typescript": "^5.8.3"
+  },
+  "files": [
+    "extension.json",
+    "index.ts"
+  ]
+}

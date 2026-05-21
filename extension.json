@@ -1,0 +1,48 @@
+{
+  "name": "github",
+  "entrypoint": "index.ts",
+  "version": "0.1.0",
+  "description": "GitHub App integration. Push code, create/update/list PRs, comment on PRs.",
+  "config": [
+    {
+      "name": "app_id",
+      "type": "integer",
+      "description": "GitHub App ID",
+      "required": true
+    },
+    {
+      "name": "private_key",
+      "type": "string",
+      "description": "PEM RSA private key content (or use private_key_path)",
+      "required": false,
+      "secret": true
+    },
+    {
+      "name": "private_key_path",
+      "type": "string",
+      "description": "Path to PEM RSA private key file",
+      "required": false
+    },
+    {
+      "name": "base_url",
+      "type": "string",
+      "description": "GitHub API base URL (default: https://api.github.com)",
+      "required": false,
+      "default": "https://api.github.com"
+    },
+    {
+      "name": "branch_prefix",
+      "type": "string",
+      "description": "Required prefix for agent branches (default: agent/)",
+      "required": false,
+      "default": "agent/"
+    },
+    {
+      "name": "protected_refs",
+      "type": "string",
+      "description": "Comma-separated glob patterns for protected branches (default: main,master,release/*)",
+      "required": false,
+      "default": "main,master,release/*"
+    }
+  ]
+}
