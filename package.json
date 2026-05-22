@@ -5,7 +5,7 @@
   "main": "index.ts",
   "description": "GitHub App integration for Beluga. Push code, create/update/list PRs, comment on PRs.",
   "dependencies": {
-    "@beluga/sdk": "file:../beluga/packages/sdk"
+    "@aspectrr/beluga-sdk": "^0.1.1"
   },
   "devDependencies": {
     "@types/bun": "^1.2.15",

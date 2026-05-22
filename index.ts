@@ -11,7 +11,7 @@ import type {
 	Tool,
 	ToolDef,
 	ToolContext,
-} from "@beluga/sdk";
+} from "@aspectrr/beluga-sdk";
 
 // ── Config ─────────────────────────────────────────────────────
 
